@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="40dp"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.sabkuchapp.AccountActivity">
+    <android.support.design.widget.TextInputLayout
+        android:textColorHint="#000"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<EditText
+    android:id="@+id/name"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="10dp"
+    android:hint="Name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" /></android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:textColorHint="#000"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">   <EditText
+        android:id="@+id/email"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" /></android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:textColorHint="#000"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">   <EditText
+        android:inputType="number"
+        android:id="@+id/phone"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:hint="Phone Number"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" /></android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btn_register"
+        android:background="#157803"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

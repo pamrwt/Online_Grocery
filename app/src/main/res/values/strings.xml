@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SabKuchapp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Cart</string>
+    <string name="title_notifications">Account</string>
+    <string name="title_activity_account">Account</string>
+</resources>

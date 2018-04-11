@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <ImageView
+
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/curve"
+           android:layout_gravity="end"
+            android:layout_marginTop="180dp"
+            android:orientation="horizontal"
+            android:layout_width="120dp"
+            android:layout_height="40dp">
+        <Button
+
+android:layout_gravity="center"
+
+            android:background="@drawable/add"
+            android:id="@+id/button1"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+            <TextView
+
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:hint="0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/txt"
+                android:layout_width="50dp"
+                android:layout_height="30dp" />
+        <Button
+            android:layout_gravity="center"
+
+            android:background="@drawable/minus"
+
+            android:id="@+id/button2"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+      </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:id="@+id/price"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="160dp"
+            android:id="@+id/id"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start" />
+
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb1"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/order"
+            android:layout_gravity="bottom"
+            android:text="order now"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
