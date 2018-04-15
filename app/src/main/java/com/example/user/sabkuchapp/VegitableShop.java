@@ -51,6 +51,7 @@ public class VegitableShop extends Fragment {
     private List<Vegitable> movieList;
     private StoreAdapter mAdapter;
     Intent intent;
+    //hey
 
     public VegitableShop() {
         // Required empty public constructor
