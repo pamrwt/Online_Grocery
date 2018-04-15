@@ -45,7 +45,7 @@ public class VegitableShop extends Fragment {
 //hi
     private static final String TAG = VegitableShop.class.getSimpleName();
     private static final String URL = "http://sabkuch.co.in/sabkuckapp/fruits.php";
-int amount=0;
+    int amount=0;
     private RecyclerView recyclerView;
     private List<Vegitable> movieList;
     private StoreAdapter mAdapter;
