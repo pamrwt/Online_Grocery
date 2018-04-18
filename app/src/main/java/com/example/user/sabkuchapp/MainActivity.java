@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView mTextMessage;
     Fragment fragment;
 
+    //hello deepti please commit the whole project
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
