@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.user.sabkuchapp.BillActivity">
-    <TextView
-        android:id="@+id/tv_amt"
-        android:padding="10dp"
-        android:layout_gravity="right"
-        android:text="Bill Amount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:layout_marginTop="30dp"
-        android:id="@+id/tv_name"
-        android:padding="10dp"
-        android:layout_gravity="right"
-        android:text="Bill Amount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+   <Button
+       android:text="Delete data"
+       android:id="@+id/btn_delete"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <Button
+       android:text="vegitable"
+       android:id="@+id/btn_intent"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <ListView
 
-</RelativeLayout>
+       android:id="@+id/list"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>
