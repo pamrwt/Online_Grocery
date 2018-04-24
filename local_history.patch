@@ -1,0 +1,16 @@
+Index: app/src/main/java/com/example/user/sabkuchapp/VegitableShop.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/user/sabkuchapp/VegitableShop.java	(revision )
++++ app/src/main/java/com/example/user/sabkuchapp/VegitableShop.java	(revision )
+@@ -183,7 +183,7 @@
+                 thumbnail = view.findViewById(R.id.image);
+ 
+                 intent =new Intent(context,BillActivity.class);
+-             
++
+ 
+                 buttonInc.setOnClickListener(new View.OnClickListener() {
+                     @Override

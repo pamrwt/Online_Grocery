@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/fruit_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="ID = "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+
+        android:id="@+id/textViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="UserID"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="Name = "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textViewNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewID"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:text="Phone Number = "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/textViewPHONE_NUMBER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="phone number"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+
+</RelativeLayout>
