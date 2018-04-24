@@ -308,15 +308,18 @@ public  class VegitableShop extends Fragment {
 
 
             }
-            public void AddData() {
+            public boolean AddData() {
 
 
-              myDB.insertData(
+            boolean inserted=  myDB.insertData(
                         Fruit_name, amount,Fruit_id,Fruit_Image,Fruit_weight
                 );
-
-                    Toast.makeText(getActivity(), "Data Inserted", Toast.LENGTH_LONG).show();
-
+if(inserted==true) {
+    Toast.makeText(getActivity(), "Data Inserted", Toast.LENGTH_LONG).show();
+}else{
+    Toast.makeText(getActivity(), " not Data Inserted", Toast.LENGTH_LONG).show();
+}
+return true;
 
             }
             @Override
