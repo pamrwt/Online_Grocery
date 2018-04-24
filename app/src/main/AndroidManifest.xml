@@ -13,10 +13,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/MyMaterialTheme">
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:noHistory="true"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,31 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Sms"
-            android:label="@string/app_name"
-            android:windowSoftInputMode="adjustResize">
-
-        </activity>
-        <activity
-            android:name=".Main2Activity"
-            android:label="@string/app_name"
-            android:windowSoftInputMode="adjustResize">
-
-        </activity>
-
-        <!-- SMS Receiver -->
-        <receiver android:name=".SmsReceiver">
-            <intent-filter android:priority="99999">
-                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
-            </intent-filter>
-        </receiver>
-
-
-        <!-- Intent service -->
-        <service
-            android:name=".HttpService"
-            android:exported="false" />
+        <activity android:name=".BillActivity" />
+        <activity android:name=".AccountActivity"></activity>
     </application>
 
 </manifest>
