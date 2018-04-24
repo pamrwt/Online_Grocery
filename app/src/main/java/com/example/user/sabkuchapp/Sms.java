@@ -190,7 +190,7 @@ public class Sms extends AppCompatActivity implements View.OnClickListener {
                         txtEditMobile.setText(pref.getMobileNumber());
                         layoutEditMobile.setVisibility(View.VISIBLE);
 
-//hell
+//hell0
 
                     // hiding the progress bar
                     progressBar.setVisibility(View.GONE);
