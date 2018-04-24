@@ -305,7 +305,7 @@ public  class VegitableShop extends Fragment {
                         amount = amount - movie.getPrice();
                     }
                 });
-
+//hh
 
             }
             public boolean AddData() {
