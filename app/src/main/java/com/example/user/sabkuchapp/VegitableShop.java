@@ -183,10 +183,7 @@ public Button buttonInc,buttonDec,orderNow;
                 thumbnail = view.findViewById(R.id.image);
 
                 intent =new Intent(context,BillActivity.class);
-                final TextView txtCount =(TextView)view. findViewById(R.id.txt);
-                Button buttonInc= (Button) view.findViewById(R.id.button1);
-                Button buttonDec= (Button) view.findViewById(R.id.button2);
-                 orderNow= (Button) view.findViewById(R.id.order);
+
 
                 buttonInc.setOnClickListener(new View.OnClickListener() {
                     @Override
