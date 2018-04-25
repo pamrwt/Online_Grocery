@@ -185,7 +185,7 @@ public class Sms extends AppCompatActivity implements View.OnClickListener {
                         // boolean flag saying device is waiting for sms
                         pref.setIsWaitingForSms(true);
 
-                        // moving the screen to next pager item i.e otp screen
+                        // moving the screen to next pager item i.e otp screensa
                         viewPager.setCurrentItem(1);
                         txtEditMobile.setText(pref.getMobileNumber());
                         layoutEditMobile.setVisibility(View.VISIBLE);
