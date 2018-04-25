@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.user.sabkuchapp.FirstScreen">
+
+
+    <Button
+        android:id="@+id/btnFruits"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#067934"
+        android:text="Fruits"
+        android:textColor="#fff" />
+
+
+    <Button
+        android:id="@+id/btnVegitables"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#067934"
+        android:text="Vegitable"
+        android:textColor="#fff" />
+
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#067934"
+        android:text="Administration Login"
+        android:textColor="#fff" />
+
+</LinearLayout>

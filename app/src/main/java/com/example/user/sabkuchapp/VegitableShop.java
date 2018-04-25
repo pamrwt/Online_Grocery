@@ -305,21 +305,18 @@ public  class VegitableShop extends Fragment {
                         amount = amount - movie.getPrice();
                     }
                 });
-//hh
+
 
             }
-            public boolean AddData() {
+            public void AddData() {
 
 
-            boolean inserted=  myDB.insertData(
+              myDB.insertData(
                         Fruit_name, amount,Fruit_id,Fruit_Image,Fruit_weight
                 );
-if(inserted==true) {
-    Toast.makeText(getActivity(), "Data Inserted", Toast.LENGTH_LONG).show();
-}else{
-    Toast.makeText(getActivity(), " not Data Inserted", Toast.LENGTH_LONG).show();
-}
-return true;
+
+                    Toast.makeText(getActivity(), "Data Inserted", Toast.LENGTH_LONG).show();
+
 
             }
             @Override
