@@ -157,7 +157,7 @@ public class Sms extends AppCompatActivity implements View.OnClickListener {
             Toast.makeText(getApplicationContext(), "Please enter valid mobile number", Toast.LENGTH_SHORT).show();
         }
     }
-
+//
     /**
      * Method initiates the SMS request on the server
      *
