@@ -164,7 +164,7 @@ public class Sms extends AppCompatActivity implements View.OnClickListener {
      * @param name   user name
      * @param email  user email address
      * @param mobile user valid mobile number
-     */
+     *//////
     private void requestForSMS(final String name, final String email, final String mobile) {
         StringRequest strReq = new StringRequest(Request.Method.POST,
                 Config.URL_REQUEST_SMS, new Response.Listener<String>() {
